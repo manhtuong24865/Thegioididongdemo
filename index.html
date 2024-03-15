@@ -1,0 +1,864 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.4.0-web/css/all.min.css">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Thế Giới Di Động</title>
+</head>
+
+<body>
+    <header>
+        <div class="banner_header">
+            <img src="/img/header.webp" alt="">
+        </div>
+        <div class="nav_header">
+            <div class="container">
+                <ul>
+                    <li><a href=""><img style="width: 130px;" src="/img/202106081228543.thegioididong.png" alt=""></a>
+                    </li>
+                    <li id="address-form"><a href="#">Kon Tum<i class="fa-sharp fa-solid fa-caret-down"></i></a> </li>
+                    <li><a href=""><input type="text" placeholder="Bạn tìm gì..."><i
+                                class="fa-solid fa-magnifying-glass"></i></a></li>
+                    <li><a href=""><button><i class="fa-sharp fa-solid fa-cart-shopping"></i>Giỏ hàng</button></a></li>
+                    <li><a href="">Lịch sử <br> đơn hàng</a></li>
+                    <li><a href=""><span class="btn_header"><span class="btn_in_header"></span></span>Mua thẻ nạp
+                            ngay</a></li>
+                    <li><a href="">24h Công nghệ</a></li>
+                    <li><a href="">Hỏi Đáp</a></li>
+                    <li><a href="">Game App</a></li>
+                    <div class="address-form">
+                        <div class="address-form-content">
+                            <h2>
+                                Chọn địa chỉ nhận hàng
+                                <span id="address-close"><i class="fa-solid fa-xmark"></i> Đóng</span>
+                            </h2>
+                            <form action="">
+                                <p>Chọn đầy đủ địa chỉ nhận hàng để biết chính xác thời gian giao hàng</p>
+                                <select name="">
+                                    <option value="#">--Chọn địa điểm</option>
+                                    <option value="#">Kon Tum</option>
+                                </select>
+                                <select name="">
+                                    <option value="#">--Chọn Quận/Huyện</option>
+                                    <option value="#">Thành phố Kon Tum</option>
+                                    <option value="#">Huyện ĐăkTô</option>
+                                    <option value="#"> Huyện Tu Mơ Rông</option>
+                                    <option value="#">Huyện Ngọc Hồi</option>
+                                    <option value="#">Huyện Sa Thầy</option>
+                                    <option value="#">Huyện Kon Rẫy</option>
+                                </select>
+                                <select name="">
+                                    <option value="#">--Chọn Phường/Xã</option>
+                                    <option value="#">Trường Chinh</option>
+                                    <option value="#">Lê Lợi</option>
+                                    <option value="#">Duy Tân</option>
+                                    <option value="#">Quang Trung</option>
+                                    <option value="#">Quyết Thắng</option>
+                                </select>
+                                <input type="text" placeholder="Số nhà, tên đường">
+                                <button>Xác nhận</button>
+                            </form>
+
+                        </div>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <div class="menu-bar">
+        <div class="container">
+            <div class="menu-bar-content">
+                <ul>
+                    <li><a href=""><i class="fa-solid fa-mobile-screen-button"></i> Điện Thoại</a></li>
+                    <li><a href=""><i class="fa-solid fa-laptop"></i> Laptop</a></li>
+                    <li><a href=""><i class="fa-solid fa-tablet"></i> Tablet</a></li>
+                    <li><a href=""><i class="fa-solid fa-headphones"></i> Phụ kiện <i
+                                class="fa-sharp fa-solid fa-caret-down"></i></a>
+                        <div class="submenu">
+                            <ul>
+                                <li><a href="">Dây sạc</a></li>
+                                <li><a href="">Cục sạc dự phòng</a></li>
+                                <li><a href="">Tai nghe</a></li>
+                                <li><a href="">Cường lực</a></li>
+                                <li><a href="">Ốp Lưng</a></li>
+                                <li><a href="">Gía đỡ Laptop</a>
+                                </li>
+                                <li><a href="">Chuột</a></li>
+                                <li><a href="">Bàn Phím</a></li>
+                                <li><a href="">Loa</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href=""><i class="fa-regular fa-clock"></i>Đồng hồ thời trang</a></li>
+                    <li><a href=""><i class="fa-solid fa-clock"></i> Đồng hồ thông minh</a></li>
+                    <li><a href=""><i class="fa-solid fa-desktop"></i>PC,Máy in <i
+                                class="fa-sharp fa-solid fa-caret-down"></i></a>
+                        <div class="submenu2">
+                            <ul>
+                                <li><a href="">Máy in</a></li>
+                                <li><a href="">Mực in</a></li>
+                                <li><a href="">Màn hình máy tính</a></li>
+                                <li><a href="">Máy tính để bàn</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="">Máy cũ giá rẻ</a></li>
+                    <li><a href="">Sim, thẻ cào</a></li>
+                    <li><a href="">Trả góp,điện nước</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section class="slider">
+        <div class="container slider-content">
+            <div class="row">
+                <div class="col-8 slider-content-left">
+                    <div class="slider-content-left-top-all">
+                        <div class="slider-content-left-top">
+                            <a href=""><img src="/img/banner-home.jpg" alt=""></a>
+                            <a href=""><img src="/img/banner4.jpg" alt=""></a>
+                            <a href=""><img src="/img/banner_2.jpg" alt=""></a>
+                            <a href=""><img src="/img/banner3.jpg" alt=""></a>
+                            <a href=""><img src="/img/bnt.jpg" alt=""></a>
+                        </div>
+                            <div class="slider-content-left-top-icon">
+                                <i class="fa-solid fa-chevron-left"></i>
+                                <i class="fa-solid fa-chevron-right"></i>
+                            </div>
+                    </div>
+                    <div class="slider-content-left-bottom">
+                        <li class="active">Laptop</li>
+                        <li>Điện thoại </li>
+                        <li>Phụ kiện</li>
+                        <li>Apap</li>
+                        <li>Iphone </li>
+
+                    </div>
+                </div>
+                <div class="col-4 slider-content-right">
+                    <li><a href=""><img src="/img/slider1.jpg" alt=""></a></li>
+                    <li><a href=""><img src="/img/slider2.jpg" alt=""></a></li>
+                    <li><a href=""><img src="/img/slider3.jpg" alt=""></a></li>
+                    <li><a href=""><img src="/img/slider4.jpg" alt=""></a></li>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner-one">
+        <div class="container">
+            <img src="img/banner1.webp" alt="" style="width: 100%;">
+        </div>
+    </section>
+   <section class="slider-product-one">
+    <div class="container">
+        <div class="slider-product-one-content">
+            <div class="slider-product-one-title">
+                <h2>Săn Sale Online Mỗi Ngày</h2>
+            </div>
+            <div class="slider-product-one-content-container">
+                <div class="slider-product-one-content-items-content">
+                    <div class="slider-product-one-content-items">
+                    <div class="slider-product-one-item">
+                        <img src="/img/product1.jpg" alt="">
+                        <div class="slider-product-one-item-text">
+                            <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                            <li>Samsung Galaxy Note 20</li>
+                            <li>Online giá rẻ</li>
+                            <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                            <li>30.990.000 <sup>đ</sup></li>
+                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-item">
+                        <img src="/img/product2.jpg" alt="">
+                        <div class="slider-product-one-item-text">
+                            <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                            <li>Iphone 12</li>
+                            <li>Online giá rẻ</li>
+                            <li><a href="">35.990.000 <sup>đ</sup></a>-8%</li>
+                            <li>32.990.000 <sup>đ</sup></li>
+                            <li>Quà 300.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-item">
+                        <img src="/img/product3.jpg" alt="">
+                        <div class="slider-product-one-item-text">
+                            <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                            <li>Iphone 12 Pro Max</li>
+                            <li>Online giá rẻ</li>
+                            <li><a href="">42.990.000 <sup>đ</sup></a>-5%</li>
+                            <li>35.990.000 <sup>đ</sup></li>
+                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-item">
+                        <img src="/img/product4.jpg" alt="">
+                        <div class="slider-product-one-item-text">
+                            <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                            <li>Iphone 13 Pro Max</li>
+                            <li>Online giá rẻ</li>
+                            <li><a href="">39.990.000 <sup>đ</sup></a>-3%</li>
+                            <li>37.990.000 <sup>đ</sup></li>
+                            <li>Quà 700.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="slider-product-one-item">
+                        <img src="/img/product5.jpg" alt="">
+                        <div class="slider-product-one-item-text">
+                            <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                            <li>Samsung S23</li>
+                            <li>Online giá rẻ</li>
+                            <li><a href="">30.990.000 <sup>đ</sup></a>-8%</li>
+                            <li>28.690.000 <sup>đ</sup></li>
+                            <li>Quà 400.000 <sup>đ</sup></li>
+                            <li>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </li>
+                        </div>
+                    </div>
+                        </div>
+                    <div class="slider-product-one-content-items">
+                        <div class="slider-product-one-item">
+                            <img src="/img/product6.jpg" alt="">
+                            <div class="slider-product-one-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                                <li>Samsung Galaxy Note 20</li>
+                                <li>Online giá rẻ</li>
+                                <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                                <li>30.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-item">
+                            <img src="/img/product7.jpg" alt="">
+                            <div class="slider-product-one-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                                <li>Iphone 12</li>
+                                <li>Online giá rẻ</li>
+                                <li><a href="">35.990.000 <sup>đ</sup></a>-8%</li>
+                                <li>32.990.000 <sup>đ</sup></li>
+                                <li>Quà 300.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-item">
+                            <img src="/img/product8.jpg" alt="">
+                            <div class="slider-product-one-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                                <li>Iphone 12 Pro Max</li>
+                                <li>Online giá rẻ</li>
+                                <li><a href="">42.990.000 <sup>đ</sup></a>-5%</li>
+                                <li>35.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-item">
+                            <img src="/img/product9.jpg" alt="">
+                            <div class="slider-product-one-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                                <li>Iphone 13 Pro Max</li>
+                                <li>Online giá rẻ</li>
+                                <li><a href="">39.990.000 <sup>đ</sup></a>-3%</li>
+                                <li>37.990.000 <sup>đ</sup></li>
+                                <li>Quà 700.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                        <div class="slider-product-one-item">
+                            <img src="/img/product10].jpg" alt="">
+                            <div class="slider-product-one-item-text">
+                                <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                                <li>Samsung S23</li>
+                                <li>Online giá rẻ</li>
+                                <li><a href="">30.990.000 <sup>đ</sup></a>-8%</li>
+                                <li>28.690.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                            </div>
+                        </div>
+                         </div>
+                    <!-- <div class="slider-product-one-content-items">
+                            <div class="slider-product-one-item">
+                                <img src="/img/product11.jpg" alt="">
+                                <div class="slider-product-one-item-text">
+                                    <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                                    <li>Samsung Galaxy Note 20</li>
+                                    <li>Online giá rẻ</li>
+                                    <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                                    <li>30.990.000 <sup>đ</sup></li>
+                                    <li>Quà 400.000 <sup>đ</sup></li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="slider-product-one-item">
+                                <img src="/img/product12.jpg" alt="">
+                                <div class="slider-product-one-item-text">
+                                    <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                                    <li>Iphone 12</li>
+                                    <li>Online giá rẻ</li>
+                                    <li><a href="">35.990.000 <sup>đ</sup></a>-8%</li>
+                                    <li>32.990.000 <sup>đ</sup></li>
+                                    <li>Quà 300.000 <sup>đ</sup></li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="slider-product-one-item">
+                                <img src="/img/product13.jpg" alt="">
+                                <div class="slider-product-one-item-text">
+                                    <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                                    <li>Iphone 12 Pro Max</li>
+                                    <li>Online giá rẻ</li>
+                                    <li><a href="">42.990.000 <sup>đ</sup></a>-5%</li>
+                                    <li>35.990.000 <sup>đ</sup></li>
+                                    <li>Quà 400.000 <sup>đ</sup></li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="slider-product-one-item">
+                                <img src="/img/product14.jpg" alt="">
+                                <div class="slider-product-one-item-text">
+                                    <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                                    <li>Iphone 13 Pro Max</li>
+                                    <li>Online giá rẻ</li>
+                                    <li><a href="">39.990.000 <sup>đ</sup></a>-3%</li>
+                                    <li>37.990.000 <sup>đ</sup></li>
+                                    <li>Quà 700.000 <sup>đ</sup></li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </div>
+                            </div>
+                            <div class="slider-product-one-item">
+                                <img src="/img/product15.jpg" alt="">
+                                <div class="slider-product-one-item-text">
+                                    <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                                    <li>Samsung S23</li>
+                                    <li>Online giá rẻ</li>
+                                    <li><a href="">30.990.000 <sup>đ</sup></a>-8%</li>
+                                    <li>28.690.000 <sup>đ</sup></li>
+                                    <li>Quà 400.000 <sup>đ</sup></li>
+                                    <li>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                        <i class="fas fa-star"></i>
+                                    </li>
+                                </div>
+                            </div>
+                         </div> -->
+                </div>
+                 <div class="slider-product-one-content-btn">
+                    <i class="fa-solid fa-chevron-left fa-chevron-left-two"></i>
+                    <i class="fa-solid fa-chevron-right fa-chevron-right-two"></i>
+                </div>
+            </div>    
+        </div>
+    </div>
+   </section>
+   <section class="product-gallery-one">
+    <div class="container">
+        <div class="product-gallery-one-content">
+            <div class="product-gallery-one-content-title">
+                <h2>Điện thoại nổi bật nhất</h2>
+                <ul>
+                    <li><a href="">SamSung Galaxy</a></li>
+                    <li><a href="">SamSung</a></li>
+                    <li><a href="">Iphone </a></li>
+                    <li><a href="">Iphone Pro Max </a></li>
+                </ul>
+            </div>
+            <div class="product-gallery-one-content-product">
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/img/product11.jpg" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                        <li>Samsung Galaxy Note 20</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                        <li>30.990.000 <sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/img/product12.jpg" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                        <li>Samsung Galaxy Note 20</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                        <li>30.990.000 <sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/img/product13.jpg" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                        <li>Samsung Galaxy Note 20</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                        <li>30.990.000 <sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/img/product14.jpg" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                        <li>Samsung Galaxy Note 20</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                        <li>30.990.000 <sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/img/product15.jpg" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                        <li>Samsung Galaxy Note 20</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                        <li>30.990.000 <sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/img/product10].jpg" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                        <li>Samsung Galaxy Note 20</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                        <li>30.990.000 <sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/img/product9.jpg" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                        <li>Samsung Galaxy Note 20</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                        <li>30.990.000 <sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/img/product8.jpg" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                        <li>Samsung Galaxy Note 20</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                        <li>30.990.000 <sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/img/product7.jpg" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                        <li>Samsung Galaxy Note 20</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                        <li>30.990.000 <sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+                <div class="product-gallery-one-content-product-item">
+                    <img src="/img/product2.jpg" alt="">
+                    <div class="product-gallery-one-content-product-item-text">
+                        <li><img src="/img/icon1-50x50.webp" alt=""><p>Giá mới siêu tốc</li>
+                        <li>Samsung Galaxy Note 20</li>
+                        <li>Online giá rẻ</li>
+                        <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                        <li>30.990.000 <sup>đ</sup></li>
+                        <li>Quà 400.000 <sup>đ</sup></li>
+                        <li>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <section class="product-gallery-two">
+    <div class="container">
+        <div class="product-gallery-two-content">
+            <div class="product-gallery-two-content-right">
+                <img src="/img/bannerrr.jpg" alt="">
+            </div>
+            <div class="product-gallery-two-content-left">
+                <div class="product-gallery-two-content-left-top">
+                    <li class="active">Đồng hồ thông minh</li>
+                    <li>Đồng hồ thời trang nam</li>
+                    <li>Đồng hồ thời trang nữ</li>
+                    <li>Đồng hồ thời trang trẻ em</li>
+                    <li><a href="">Xem tất cả</a><i class="fa-solid fa-caret-right"></i></li>
+                </div>
+                <div class="product-gallery-two-content-left-bottom">
+                    <div class="product-gallery-two-content-left-bottom-item">
+                        <img src="/img/apple1.png" alt="">
+                        <div class="product-gallery-two-content-left-bottom-item-text">
+                            <li><img src="/img/icon1-50x50.webp" alt=""><p>Ưu đãi khủng</li>
+                                <li>Apple Watch S3</li>
+                                <li>Hàng mới về</li>
+                                <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                                <li>30.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                        </div>
+                    </div>
+                    <div class="product-gallery-two-content-left-bottom-item">
+                        <img src="/img/apple5.png" alt="">
+                        <div class="product-gallery-two-content-left-bottom-item-text">
+                            <li><img src="/img/icon1-50x50.webp" alt=""><p>Ưu đãi khủng</li>
+                                <li>Apple Watch S3</li>
+                                <li>Hàng mới về</li>
+                                <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                                <li>30.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                        </div>
+                    </div>
+                    <div class="product-gallery-two-content-left-bottom-item">
+                        <img src="/img/apple1.png" alt="">
+                        <div class="product-gallery-two-content-left-bottom-item-text">
+                            <li><img src="/img/icon1-50x50.webp" alt=""><p>Ưu đãi khủng</li>
+                                <li>Apple Watch S3</li>
+                                <li>Hàng mới về</li>
+                                <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                                <li>30.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                        </div>
+                    </div>
+                    <div class="product-gallery-two-content-left-bottom-item">
+                        <img src="/img/apple3.jpg" alt="">
+                        <div class="product-gallery-two-content-left-bottom-item-text">
+                            <li><img src="/img/icon1-50x50.webp" alt=""><p>Ưu đãi khủng</li>
+                                <li>Apple Watch S3</li>
+                                <li>Hàng mới về</li>
+                                <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                                <li>30.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                        </div>
+                    </div>
+                    <div class="product-gallery-two-content-left-bottom-item">
+                        <img src="/img/apple2.png" alt="">
+                        <div class="product-gallery-two-content-left-bottom-item-text">
+                            <li><img src="/img/icon1-50x50.webp" alt=""><p>Ưu đãi khủng</li>
+                                <li>Apple Watch S3</li>
+                                <li>Hàng mới về</li>
+                                <li><a href="">32.990.000 <sup>đ</sup></a>-6%</li>
+                                <li>30.990.000 <sup>đ</sup></li>
+                                <li>Quà 400.000 <sup>đ</sup></li>
+                                <li>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </li>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+   <div class="footer">
+    <div class="footer-main">
+        <div class="container">
+            <div class="footer_main-wrap row gutter-15">
+                <div class="row">
+                    <div class="col-xxl-5 col-lg-4 col-12">
+                        <div class="footer_title">
+                           THẾ GIỚI DI ĐỘNG
+                        </div>
+                        <div class="footer_content">
+                            <ul>
+                                <li>
+                                <strong>Trụ sở chính:</strong>
+                                16 Phan Đình Phùng , phường Quán Thánh , quận Ba Đình , Thành Phố Hà Nội
+                                </li>
+                                <li>
+                                    <strong>Chi Nhánh: </strong>
+                                153 Hàm Nghi, Phường Nguyễn Thái Bình , quận 1,TP Hồ Chí Minh
+                                </li>
+                                <li>
+                                    <strong>Hotline:</strong>
+                                    0904384380/0912462286
+                                    <strong>Fax: </strong>
+                                    024.3733579
+                                </li>
+                                <li>
+                                    <strong>Email: </strong>
+                                    thegioididong@tgdd.com.vn
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-6 text_footer">
+                        <div class="footer_title">
+                            Điều hướng
+                        </div>
+                        <div class="footer_menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Giới thiệu</a>
+                                </li>
+                                <li>
+                                    <a href="#">Sản phẩm</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dịch vụ</a>
+                                </li>
+                                <li>
+                                    <a href="#">Tin tức</a>
+                                </li>
+                                <li>
+                                    <a href="#">Liên hệ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xxl-2 col-lg-3 col-6 text_footer">
+                        <div class="footer_title">
+                            DỊCH VỤ
+                        </div>
+                        <div class="footer_menu">
+                            <ul>
+                                <li>
+                                    <a href="#">Dịch vụ trả góp</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dịch vụ bảo hành</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dịch vụ  online</a>
+                                </li>
+                                <li>
+                                    <a href="#">Dịch vụ điện thoại</a>
+                                </li>
+                                <li>
+                                    <a href="#">Các dịch vụ khác</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-12">
+                        <div class="footer_title">
+                            BẢN ĐỒ
+                        </div>
+                        <div class="footer_img">
+                            <img src="/img/footer_map.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="/javascript.js"></script>
+</body>
+
+</html>
